@@ -1,0 +1,204 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.header .name {
+  font-size: 15px;
+  color: black;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 650px;
+}
+
+.search-input {
+  font-size: 14px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px; /* Increase padding for better mobile spacing */
+  }
+
+  .header {
+    flex-direction: column; /* Stack items in header vertically */
+  }
+
+  .search-box {
+    flex-direction: column; /* Stack search elements vertically */
+    align-items: flex-start;
+  }
+
+  .search-input {
+    margin-right: 0; /* Reset margin for better mobile spacing */
+    margin-top: 10px; /* Add top margin for spacing between input and button */
+  }
+}
+
+.circle-image {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.box-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  width: 198px;
+  height: 100px;
+  background-color: #ececec;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+
+.box + .box {
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+.box-text {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.additional-text {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: -10px;
+  margin-left: -40px;
+}
+@media screen and (max-width: 480px) {
+  .circle-image {
+    display: none; /* Hide the circular image on smaller screens */
+  }
+
+  .box-text {
+    font-size: 10px; /* Reduce font size for better readability on mobile */
+  }
+
+  .additional-text {
+    font-size: 12px; /* Reduce font size for better readability on mobile */
+    margin-left: 0; /* Reset left margin for better alignment */
+    margin-bottom: 0; /* Reset bottom margin */
+  }
+}
+
+.square-boxes {
+  display: flex;
+  margin-top: 30px;
+  justify-content: flex-end;
+  width: 97.5%;
+}
+
+.square-box {
+  width: 530px;
+  height: 300px;
+  background-color: black;
+  margin-right: 64px;
+}
+
+.square-box1 {
+  width: 350px;
+  height: 300px;
+  background-color: #ccc;
+}
+.square-box {
+  width: 530px;
+  height: 250px;
+  background-image: url("report.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.square-box1 {
+  width: 350px;
+  height: 250px;
+  background-image: url("percent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rect1 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+  width: 98%;
+}
+
+.rectangular {
+  margin-top: 20px;
+  width: 950px;
+  height: 200px;
+  background-color: #ccc;
+  justify-content: flex-end;
+}
+.final1 {
+  background-image: url("final.png");
+  background-size: cover;
+  width: 950px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+@media screen and (max-width: 768px) {
+  .square-boxes {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .square-box,
+  .square-box1 {
+    width: 100%; /* Make the square boxes full width on smaller screens */
+    height: 250px; /* Adjust the height for better mobile layout */
+    margin-right: 0; /* Reset margin for better spacing */
+  }
+
+  .rect1,
+  .rectangular,
+  .final1 {
+    width: 100%; /* Make rectangular boxes full width on smaller screens */
+  }
+}
+
+/* Media query for mobile view */
+@media screen and (max-width: 480px) {
+  .square-box,
+  .square-box1,
+  .rectangular,
+  .final1 {
+    height: 150px; /* Further reduce the height for better mobile layout */
+  }
+}
