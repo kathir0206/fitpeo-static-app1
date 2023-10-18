@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fitpeo-static-app/static/css/main.b94a8e1a.css",
+    "main.js": "/fitpeo-static-app/static/js/main.1dd1612e.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/fitpeo-static-app/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/fitpeo-static-app/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/fitpeo-static-app/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/fitpeo-static-app/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/fitpeo-static-app/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/final.png": "/fitpeo-static-app/static/media/final.1e222c765b874fae5da1.png",
+    "static/media/percent.png": "/fitpeo-static-app/static/media/percent.2cb784458872b2f5a567.png",
+    "static/media/Earnings.png": "/fitpeo-static-app/static/media/Earnings.230f305a69592746789e.png",
+    "static/media/report.jpg": "/fitpeo-static-app/static/media/report.9e5a158f811288885cd9.jpg",
+    "index.html": "/fitpeo-static-app/index.html",
+    "main.b94a8e1a.css.map": "/fitpeo-static-app/static/css/main.b94a8e1a.css.map",
+    "main.1dd1612e.js.map": "/fitpeo-static-app/static/js/main.1dd1612e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b94a8e1a.css",
+    "static/js/main.1dd1612e.js"
+  ]
+}
